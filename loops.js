@@ -1,4 +1,4 @@
-console.log("loopy")
+//console.log("loopy")
 
 
 //normal for loop
@@ -33,10 +33,10 @@ let evenOdd = [[x],[y]];
 
 for (let i = 0; i < number.length; i++){
   if (i %2 === 0){
-     console.log(x.push(i));
+    //  console.log(x.push(i));
   }
 }
-console.log(x)
+//console.log(x)
 
 
 // for (let i = 0; i < number.length; i++){
@@ -46,3 +46,19 @@ console.log(x)
 //   }
 // }
 //   console.log(evenOdd)
+
+/* Write a new for loop, using chessboardLength.
+   1. Print out a row that's as long as specified.
+      If it's a black square, print "X"
+      If it's a white square, print "."
+      So for an 8-long row, print ".X.X.X.X"
+
+
+   2. A real stretch goal: put this for loop in another for
+      loop. And print out a row for everything. So, if
+      chessboardLength = 4, print:
+      ".X.X
+       X.X.
+       .X.X
+       X.X."
+       */
