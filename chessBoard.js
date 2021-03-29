@@ -9,7 +9,7 @@ console.log("chessBoard")
 // else console.log(array[i],'.')
 // }
 
-let array = [1,5,2,3,7,4,6,8]
+//let array = [1,5,2,3,7,4,6,8]
 //let sortedArr = array.sort() //[1,2,3,4,5,6, 7,8]
                              //i=[1, 2, 4, 16]
 
@@ -45,12 +45,22 @@ let array = [1,5,2,3,7,4,6,8]
 //6,7,8,9,
 //6,7,8,9]
 
-for (let i=0; i < array.length; i++){
-    for(let k=0; k < array.length; k++){
-console.log(array)
-    }
+// the first for loop checks the row, the nested for loop checks the column
+let rowColumnArr = [1,2,3,4]
+for (let i=0; i < rowColumnArr.length; i++){
+    for(let k=0; k < rowColumnArr.length; k++){
+console.log(rowColumnArr)
+ }
 }
 
+
+// for (let i = 0; i <rowColumnArr.length; i++){
+// //conditional
+// if (rowColumnArr[i] %2 === 0){
+// console.log('x');
+// }
+// else console.log('.');
+// }
 
 
 
