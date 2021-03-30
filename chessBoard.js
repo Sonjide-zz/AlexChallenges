@@ -46,10 +46,20 @@ console.log("chessBoard")
 //6,7,8,9]
 
 // the first for loop checks the row, the nested for loop checks the column
+// let rowColumnArr = [1,2,3,4]
+// for (let i=0; i < rowColumnArr.length; i++){
+//     for(let k=0; k < rowColumnArr.length; k++){
+// console.log(rowColumnArr)
+//  }
+// }
+
 let rowColumnArr = [1,2,3,4]
 for (let i=0; i < rowColumnArr.length; i++){
     for(let k=0; k < rowColumnArr.length; k++){
-console.log(rowColumnArr)
+        //console.log(rowColumnArr[[i],[k]])
+        //console.log(rowColumnArr)
+        // let newArr = rowColumnArr[[i],"x"]
+        // console.log(newArr)
  }
 }
 
